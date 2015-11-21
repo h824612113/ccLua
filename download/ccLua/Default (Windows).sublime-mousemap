@@ -1,0 +1,13 @@
+[
+	// Drag select by words
+	{
+		"button": "button1", "count": 2,
+		"press_command": "double_click",
+		"press_args": {"by": "words"}
+	},
+	{
+		"button": "button1", "modifiers": ["ctrl", "alt"],
+		"press_command": "quick_expand_selection_word",
+		"press_args": {}
+	}
+]
